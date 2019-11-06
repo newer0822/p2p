@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 /**
  * 实体类银行卡
+ * 11111111111
  */
 public class Bankcard implements Serializable {
     private static final long serialVersionUID = 7298044262122336562L;
@@ -13,6 +14,7 @@ public class Bankcard implements Serializable {
     private  String bankid;//银行卡号
     private  Integer bby;//备用1
     private String bby1;//备用2
+    private String bby3;
 
     public Integer getBid() {
         return bid;
